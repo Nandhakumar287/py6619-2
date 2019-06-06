@@ -1,5 +1,12 @@
 num1,num2=map(int,input().split())
-if(num1==(num2*num2)):
-  print("yes")
+while(num1>=num2):
+    if(num2==num1):
+        s=1
+        break
+    else:
+        s=0
+        num2*=2
+if(s==1):
+    print("yes")
 else:
-  print("no")
+    print("no")
